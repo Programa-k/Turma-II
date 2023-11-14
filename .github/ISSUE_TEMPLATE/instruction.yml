@@ -1,0 +1,94 @@
+---
+name: "CARD INSTRUCTION"
+description: "Um novo CARD para uma nova INSTRUCTION!"
+title: "Por favor, um nome para a INSTRUCTION ..."
+labels: "INSTRUCTION"
+body:
+  - type: markdown
+    attributes:
+      value: "# A História de uma IDEIA (INSTRUCTION)"
+  - type: input
+    id: lider
+    attributes:
+      label: "Líder para a IDEIA:"
+      description: "Por favor, o nome completo de quem lidera a INSTRUCTION ..."
+      placeholder: "Líder da INSTRUCTION"
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: "Minha IDEIA é:"
+      description: "Por favor, descreva aqui a sua IDEIA, NA VERDADE, a NECESSIDADE para o qual você acredita que precisa de uma INSTRUCTION!"
+      placeholder: "Descrição da NECESSIDADE"
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: "Nossa INSTRUCTION é:"
+      description: "Por favor, descreva aqui a INSTRUCTION proposta pelo Grupo! Como toda INSTRUCTION também entrega um Build, descreva o Build proposto também ..." 
+      placeholder: "Descrição da INSTRUCTION (+ Build)"
+    validations:
+      required: false
+  - type: textarea
+    id: history
+    attributes:
+      label: "Nossa HISTÓRIA (fatos marcantes - milestones):"
+      description: "Por favor, descreva aqui as DECISÔES do Grupo para cada STAGE e as DECISÕES obtidas dos Tutores em cada GATE (com datas!)..."
+      placeholder: "Descrição do Processo"
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: "## IDEAÇÃO"
+  - type: checkboxes
+    id: ideation
+    attributes:
+      label: "Checklist de uma IDEIA - QUADRO IDEAÇÃO:"
+      description: "Etapas da Ideação"
+      options:
+        - label: "0- Empatia: acho que captei os desejos e ou as dores de alguém ... (INSPIRAÇÃO)"
+          required: true
+        - label: "1- Descrição do PROBLEMA: acho que consigo explicar a NECESSIDADE de forma clara para outras pessoas (Minha IDEIA) ..."
+          required: true
+        - label: "2- Temos um GRUPO: o Grupo não é grande demais e nem pequeno demais (e depende da próxima ETAPA! Rsss...)"
+          required: false
+        - label: "3- Temos uma SOLUÇÃO escolhida e de certa forma planejada (sonhada!), e está descrita em Nossa INSTRUCTION ..."
+          required: false
+        - label: "4- Nossa INSTRUCTION escolhida, está em votação..."
+          required: false  
+        - label: "5- Dada nossa INSTRUCTION, o próximo STAGE está claro (bem planejado!), e descrito sucintamente em Nossa HISTÓRIA ..."
+          required: false
+        - label: "6- Agendamos com um(a) Tutor(a)..."
+          required: false
+        - label: "7- Temos uma DECISÃO que foi registrada com a DATA e o parecer do(a) Tutor(a)... em Nossa HISTÓRIA ..."
+          required: false
+  - type: markdown
+    attributes:
+      value: "## IMPLEMENTAÇÃO (se GO!)"
+  - type: checkboxes
+    id: implementation
+    attributes:
+      label: "Checklist de uma IDEIA - QUADRO IMPLEMENTAÇÃO:"
+      description: "Etapas da Implementação"
+      options:
+        - label: "8- Executando o STAGE aprovado!"
+          required: false
+        - label: "9- Finalizamos o STAGE e estamos agendando com um(a) Tutor(a)..."
+          required: false
+        - label: "10- Temos uma DECISÃO que foi registrada com a DATA e o parecer do(a) Tutor(a)... em Nossa HISTÓRIA ..."
+          required: false
+  - type: markdown
+    attributes:
+      value: |
+      
+       ## Glory! Próximo GATE? Se sim, que tal repetirmos as Etapas 8, 9 e 10...
+
+       Se nova IDEIA, criamos um novo CARD BUILD ou INSTRUCTION!
+           
+  - type: markdown
+    attributes:
+      value: Dúvidas?! Rsss..."
+       
+...
