@@ -1,7 +1,7 @@
 ---
 name: "CARD BUILD"
 description: "Um novo CARD para um novo BUILD!"
-title: "Por favor, um nome para a IDEA ..."
+title: "Por favor, um nome para a IDEIA ..."
 labels: "BUILD"
 body:
   - type: markdown
