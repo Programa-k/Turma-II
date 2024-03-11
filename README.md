@@ -29,7 +29,14 @@
 
 ### IMPLEMENTAÇÃO
 
-- Em breve!
+- Se passamos pelo GATE da IDEAÇÃO, então sabemos "claramente" o que faremos nos próximos dias, no **STAGE-GATE** da IMPLEMENTAÇÃO!
+- O Líder tem o direito/dever de associar o CARD da IDEIA ao Quadro IMPLEMENTAÇÃO (**em Projects**).
+- Repare que a imagem do Processo abaixo, é muito "simples". Ela não indica todos os métodos, ferramentas e instrumentos que podemos utilizar para executar o que foi acordado. MAS SOMOS: **Design Thinking + Lean + Agile** ! Rsss...
+- E quando conseguir um **GLORY!**, após o GATE: primeiro, não pare de respirar... rsss... ; segundo, é hora de passar para o próximo **STAGE-GATE** na IDEAÇÃO, registrando um novo CARD, formando o grupo, passando pela votação e pelo GATE, para então voltar **AQUI**; terceiro, o Coordenador do Programa entrará em contato com o(a) Líder do Grupo com novas instruções...
+- Você entendeu que por maior que seja a **IDEIA**, ela será executada por pares de STAGE-GATEs: IDEAÇÃO e IMPLEMENTAÇÃO...
+
+
+![Projeto k - Implementação Diagram](https://github.com/Programa-k/Turma-II/assets/106892835/4a16887a-3d86-4527-8beb-f94f62cc3a9d)
 
 
 dúvidas? Você sabe com quem falar! Rssss...
